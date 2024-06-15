@@ -1,1 +1,2 @@
-<h2 align="center">Scala Practical 01</h2>
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=32&vCenter=true&width=760&lines=Scala+Practical+01)](https://git.io/typing-svg)
