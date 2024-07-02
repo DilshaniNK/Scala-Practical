@@ -12,9 +12,9 @@ def StringLength(st: List[String]):List[String]={
 }
 
 //Question 03
-def Avarage(num1:Int,num2:Int):Double={
+def Avarage(num1:Int,num2:Int):Float={
     var n=(num1+num2)/2.0
-    BigDecimal(n).setScale(2, BigDecimal.RoundingMode.HALF_UP).toDouble
+    "%.2f".format(n).toFloat
 }
 
 //Question 04
