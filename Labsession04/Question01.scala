@@ -1,5 +1,4 @@
 
-import scala.util.control.NonLocalReturns._
 object question_4_01{
     var names: Array[String] = Array()
     var quantities: Array[Int] = Array()
