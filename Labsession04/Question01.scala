@@ -1,57 +1,71 @@
-//object inventory extends App{
-    var name=Array("milk","rice","noodles");
-    var quantity=Array(23,45,2);
 
+import scala.util.control.NonLocalReturns._
+object question_4_01{
+    var names: Array[String] = Array()
+    var quantities: Array[Int] = Array()
 
-//first question
-  def printinventory():Unit={
-    val newValue = {
-  for(i<- quantity.indices){
-    print(name(i));
-    print('-');
-    println(quantity(i));
-            }  
-        }
-      if(name.length!=quantity.length){
-    print("there's a problem with arrays");
-      }
-    }
-
-
-
-//second question
-def restockinventory(a:String,b:Int):Unit={
-            var  flag=0;  
-            for(i<-name.indices){
-       
-                 if(name(i)==a){
-                quantity(i)=quantity(i)+b;
-                println("wede hari");
-                flag=1;
-              }
-            }
-            if(flag==0){
-            print("sorry,your item is not in the list");
-            
+    def displayInventory():Unit={
+        var len = names.length
+        var i = 0
+        println("---------------Inventory---------------")
+        println("Name\t\tQuantity")
+        while(i<len){
+            println(s"${names(i)}\t\t${quantities(i)}")
+            i += 1
         }
     }
 
-//third question
-      def sellitem(a:String,b:Int):Unit={
-       var flag1=0;
-       for(i<-name.indices){
-        if( name(i)==a){
-            flag1=1;
-            if(quantity(i)>=b){
-                quantity(i)=quantity(i)-b;
-                print(quantity(i));
-            }else{
-                print(("sorry, not enough quantity"));
+    def restockItem(name: String , qty: Int):String={
+        for (nm <- names){
+            if(nm == name){
+              quantities(names.indexOf(nm)) += qty  
+              return (s"Successfully added items to $name")
+              
             }
-
-        }}
-        if(flag1==0){
-            print("sorry, item not found");
         }
-       
-      }
+      (s"$name not found in the existing inventories!!")
+    }
+
+    def sellItem(name: String , qty: Int):String={
+        for (nm <- names){
+            if(nm == name){
+                if(quantities(names.indexOf(nm)) < qty){
+                    return (s"Not enough items: $name")
+                }else{
+                    quantities(names.indexOf(nm)) -= qty  
+                    return(s"Successfully sell $qty $name items")
+                  
+                }
+            }
+        }
+        (s"$name not found in the existing inventories!!")
+    }
+
+    def main(args: Array[String]):Unit={
+        names = Array("Book" , "Pen" , "Pencil")
+        quantities = Array(5 , 10 , 10)
+        
+        displayInventory()
+        println()
+
+        println(restockItem("Book" , 5)) //restock items when already existing product
+        displayInventory()
+        println()
+
+        println(restockItem("Ruler" , 2)) //restock items when not a already existing item
+        displayInventory()
+        println()
+
+        println(sellItem("Book" , 5)) // sell items when it is enough items
+        displayInventory()
+        println()
+
+        println(sellItem("Book" , 20)) // sell items when it is not enough items
+        displayInventory()
+        println()
+
+        println(sellItem("Ruler" , 5)) // sell items when not a already existing item
+        displayInventory()
+        println()
+    }
+}
