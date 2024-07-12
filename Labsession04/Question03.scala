@@ -12,19 +12,13 @@ object TextFormat {
   }
 
   def main(args: Array[String]): Unit = {
-    val names = List("Benny", "Niroshan", "Saman", "Kumara")
-
-    names.foreach { name =>
-      val formattedName = name match {
-        case "Benny" => formatNames(name, toUpper)
-        case "Niroshan" => 
-          formatNames(name.substring(0, 2), toUpper) + formatNames(name.substring(2), toLower)
-        case "Saman" => formatNames(name, toLower)
-        case "Kumara" => 
-          formatNames(name.substring(0, 1), toUpper) + formatNames(name.substring(1, 5), toLower) + formatNames(name.substring(5), toUpper)
-        case _ => name
-      }
-      println(formattedName)
-    }
+    var name1="Benny"
+    println(formatNames(name1 , toUpper))
+    var name2="Niroshan"
+    println((formatNames(name2.substring(0,2),toUpper))+formatNames(name2.substring(2),toLower))
+    var name3="Saman"
+    println((formatNames(name3,toLower)))
+    var name4="kumara"
+    println((formatNames(name4.substring(0,1),toUpper))+formatNames(name4.substring(1,5),toLower)+formatNames(name4.substring(5),toUpper))
   }
 }
