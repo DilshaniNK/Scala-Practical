@@ -1,96 +1,69 @@
+import scala.io.StdIn._
 
-object q06{
-    def getStudentInfo(): (String,Int,String)={
-        var name: String = getStudentInfoWithRetry(0).toString
-        var marks: Int = getStudentInfoWithRetry(1).asInstanceOf[Int]
-        var state: Boolean = false
-        while (!state){
-            val (name0 , marks0, satate0 )=validateInput(name,marks)
-            name=name0
-            marks=marks0
-            state=satate0
-        }
-        val grade = setGrade(marks)
-        (name, marks , grade)
-    }
+object Q02 {
 
-    def getStudentInfoWithRetry(what: Int): Any ={
-        if (what == 0){
-            val name: String = scala.io.StdIn.readLine("Enter the Name : ")
-            name
-        }else{
-            print(s"Enter the Marks :")
-            val marks: Int = scala.io.StdIn.readInt()
-            marks
-        }
-    }
-    def validateInput(name : String,marks:Int):(String,Int,Boolean)={
-        if(name.isBlank){
-            if(checkMarks(marks)== -1){
-                (
-                    getStudentInfoWithRetry(0).toString,
-                    getStudentInfoWithRetry(1).asInstanceOf[Int],
-                    false
-                )
-            }else{
-                (
-                    getStudentInfoWithRetry(0).toString,marks,false
-                )
-            }
+  def main(args: Array[String]): Unit = {
+    val studentInfo = getStudentInfoWithRetry()
+    printStudentRecord(studentInfo)
+  }
 
-        }else{
-            if (checkMarks(marks) == -1){
-                (
-                    name,getStudentInfoWithRetry(1).asInstanceOf[Int],false
-                )
-            }else{
-                (
-                    name,marks,true
-                )
-            }
-        }
-    }
+  def getStudentInfo(): (String, Int, Int, Double, Char) = {
+    println("Enter student name: ")
+    val name=readLine()
+    println("Enter student marks :")
+    val marks=readInt().toInt
+    println("Enter total possible marks :")
+    val totalMarks=readInt().toInt
 
-    def validateInput_(name: String,marks:Int):(Boolean,Option[String])={
-        if (name.isBlank){
-            return(false, Some("Name cannot be empty"))
-        }
-        if(marks <= 0 && marks >= 100){
-            return (false, Some("Marks must be between 0 and the  total possible marks"))
+    val percentage = (marks.toDouble / totalMarks) * 100
+    val grade = if (percentage >= 90) 'A'
+                else if (percentage >= 75) 'B'
+                else if (percentage >= 50) 'C'
+                else 'D'
 
-        }
-        (true,None)
+    (name, marks, totalMarks, percentage, grade)
+  }
 
-    }
+  def printStudentRecord(student: (String, Int, Int, Double, Char)): Unit = {
+    println(s"Student Name : ${student._1}")
+    println(s"Marks : ${student._2}")
+    println(s"Total Marks : ${student._3}")
+    println(s"Percentage : ${student._4}")
+    println(s"Grade : ${student._5}")
+  }
 
-    def checkMarks(marks : Int): Int={
-        if(marks >=0 && marks <=100){
-            marks
-        }else{
-            -1
-        }
-    }
-
-    def setGrade(marks:Int):String = marks match{
-        case x if x<50 => "D"
-        case x if x<75 => "c"
-        case x if x<90 => "B"
-        case _ =>"A"
-
-    }
-
-    def printStudentRecord(student: (String, Int, String)): Unit = {
-    if (!student._1.isBlank) {
-      println(
-        s"\nName: ${student._1}\tMarks: ${student._2}\tGrade: ${student._3}\n"
-      )
+  def validateInput(name: String, marks: Int, totalMarks: Int): (Boolean, Option[String]) = {
+    if (name.isEmpty) {
+      (false, Some("Name cannot be empty"))
+    } else if (marks < 0 || marks > totalMarks) {
+      (false, Some("Marks must be positive and not exceed total marks"))
     } else {
-      println("Invalid Student Record")
+      (true, None)
     }
-    }
+  }
 
-    def main(args: Array[String]): Unit = {
-    val student1 = getStudentInfo()
-    printStudentRecord(student1)
+  def getStudentInfoWithRetry(): (String, Int, Int, Double, Char) = {
+    var valid = false
+    var studentInfo: (String, Int, Int, Double, Char) = ("", 0, 0, 0.0, 'F')
+
+    while (!valid) {
+      val name = readLine("Enter student name: ")
+      val marks = readLine("Enter student marks: ").toInt
+      val totalMarks = readLine("Enter total possible marks: ").toInt
+
+      val (isValid, errorMessage) = validateInput(name, marks, totalMarks)
+      if (isValid) {
+        val percentage = (marks.toDouble / totalMarks) * 100
+        val grade = if (percentage >= 90) 'A'
+                    else if (percentage >= 75) 'B'
+                    else if (percentage >= 50) 'C'
+                    else 'D'
+        studentInfo = (name, marks, totalMarks, percentage, grade)
+        valid = true
+      } else {
+        println(s"Invalid input: ${errorMessage.get}")
+      }
+    }
+    studentInfo
   }
 }
