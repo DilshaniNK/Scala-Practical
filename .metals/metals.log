@@ -23,3 +23,511 @@ SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@65f0692
 2024.08.09 11:42:22 INFO  shutting down Metals
 2024.08.09 11:42:22 INFO  Shut down connection with build server.
 2024.08.09 11:42:22 INFO  Exiting server
+2024.08.12 14:30:06 INFO  Started: Metals version 1.3.5 in folders 'C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical' for client Visual Studio Code 1.92.1.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@7dcdde90]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@24e03e28]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@7dcdde90]
+2024.08.12 14:30:08 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.12 14:30:09 INFO  no build target found for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.12 14:30:09 INFO  Attempting to connect to the build server...
+2024.08.12 14:30:09 INFO  Running BSP server List(C:\Users\Dilsh\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\.scala-build\ide-envs.json, C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical)
+2024.08.12 14:30:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\.metals\bsp.trace.json or C:\Users\Dilsh\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.12 14:30:13 INFO  BSP server: Starting compilation server
+2024.08.12 14:30:16 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/LabSession08/1.scala
+2024.08.12 14:30:23 INFO  time: Connected to build server in 13s
+2024.08.12 14:30:23 INFO  Connected to Build server: scala-cli v1.3.2
+2024.08.12 14:30:23 INFO  time: Imported build in 0.24s
+2024.08.12 14:30:23 INFO  running doctor check
+2024.08.12 14:30:23 INFO  java targets: Scala-Practical_f4dd477a3a-test, Scala-Practical_f4dd477a3a
+2024.08.12 14:30:31 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.12 14:30:31 INFO  time: indexed workspace in 8.64s
+2024.08.12 14:32:23 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/LabSession08/1.scala
+2024.08.12 14:32:24 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/LabSession08/1.scala
+2024.08.12 14:32:50 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:32:51 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/LabSession08/1.scala
+2024.08.12 14:32:51 ERROR C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:709)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:247)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:84)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:595)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:693)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:690)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:690)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:952)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+Aug 12, 2024 2:32:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 52
+2024.08.12 14:32:55 INFO  time: compiled Scala-Practical_f4dd477a3a in 4.61s
+2024.08.12 14:32:55 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:32:55 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.33s
+2024.08.12 14:32:56 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/LabSession08/1.scala
+Aug 12, 2024 2:32:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 68
+2024.08.12 14:32:59 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:33:02 INFO  time: compiled Scala-Practical_f4dd477a3a in 3.36s
+2024.08.12 14:33:03 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:33:03 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:33:02 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:33:04 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:33:05 INFO  time: compiled Scala-Practical_f4dd477a3a in 1.31s
+2024.08.12 14:33:06 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:33:06 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.61s
+2024.08.12 14:33:07 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:33:07 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:33:07 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.76s
+2024.08.12 14:33:10 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:33:10 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.26s
+2024.08.12 14:33:12 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:33:12 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.27s
+2024.08.12 14:33:15 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:33:15 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.38s
+2024.08.12 14:33:17 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:33:17 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.28s
+2024.08.12 14:33:21 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:33:21 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.29s
+2024.08.12 14:33:25 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:33:25 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.25s
+2024.08.12 14:33:40 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:33:40 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.28s
+2024.08.12 14:33:43 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:33:43 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.22s
+2024.08.12 14:33:45 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:33:45 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.41s
+2024.08.12 14:33:48 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:33:48 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.26s
+2024.08.12 14:33:56 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:33:58 INFO  time: compiled Scala-Practical_f4dd477a3a in 2.3s
+2024.08.12 14:34:11 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:34:12 INFO  time: compiled Scala-Practical_f4dd477a3a in 1.31s
+2024.08.12 14:34:12 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:34:14 INFO  time: compiled Scala-Practical_f4dd477a3a in 1.02s
+2024.08.12 14:34:18 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:34:19 INFO  time: compiled Scala-Practical_f4dd477a3a in 1.31s
+2024.08.12 14:34:22 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:34:22 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.93s
+2024.08.12 14:34:34 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:34:35 INFO  time: compiled Scala-Practical_f4dd477a3a in 1.17s
+2024.08.12 14:34:46 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:34:46 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.26s
+2024.08.12 14:34:47 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:34:47 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.24s
+2024.08.12 14:34:49 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:34:50 INFO  time: compiled Scala-Practical_f4dd477a3a in 1.1s
+2024.08.12 14:34:51 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:34:52 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:34:52 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:34:52 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.74s
+2024.08.12 14:34:53 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:34:53 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:34:54 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:34:54 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:34:55 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:34:54 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.73s
+2024.08.12 14:34:55 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:34:56 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:34:56 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:34:56 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.43s
+2024.08.12 14:34:57 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:34:57 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:34:58 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:34:59 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:00 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:00 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:35:00 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.94s
+2024.08.12 14:35:04 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:35:04 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.67s
+2024.08.12 14:35:07 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:07 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:35:07 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.39s
+2024.08.12 14:35:08 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:09 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:10 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:10 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:35:10 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.3s
+2024.08.12 14:35:11 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:12 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:13 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:13 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:35:13 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.47s
+2024.08.12 14:35:14 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:15 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:16 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:17 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:35:17 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.32s
+2024.08.12 14:35:17 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:18 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:19 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:20 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:35:20 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.41s
+2024.08.12 14:35:20 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:21 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:22 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:35:22 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:22 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.35s
+2024.08.12 14:35:23 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:23 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:24 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:35:24 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:24 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.29s
+2024.08.12 14:35:24 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:25 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:25 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:35:25 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.38s
+2024.08.12 14:35:26 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:28 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:29 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:30 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:35:30 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.4s
+2024.08.12 14:35:29 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+Aug 12, 2024 2:35:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 834
+2024.08.12 14:35:33 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:34 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:35 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:35:35 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.33s
+2024.08.12 14:35:35 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:36 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:36 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:35:36 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.84s
+2024.08.12 14:35:47 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:35:47 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.87s
+2024.08.12 14:35:49 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:35:49 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:35:49 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.77s
+2024.08.12 14:37:03 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:37:03 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.4s
+2024.08.12 14:37:06 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:37:06 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.28s
+2024.08.12 14:37:10 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:37:10 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.49s
+2024.08.12 14:37:13 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:37:13 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.41s
+2024.08.12 14:37:14 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:37:14 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.35s
+2024.08.12 14:37:19 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:37:19 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.4s
+2024.08.12 14:37:24 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:37:24 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.36s
+2024.08.12 14:37:27 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:37:27 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.56s
+2024.08.12 14:37:28 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:37:28 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.28s
+Aug 12, 2024 2:37:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1126
+2024.08.12 14:37:34 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:37:34 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.8s
+2024.08.12 14:37:39 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:37:39 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.4s
+2024.08.12 14:37:44 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:37:44 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.35s
+2024.08.12 14:37:45 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:37:45 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.43s
+2024.08.12 14:37:47 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:37:47 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.3s
+2024.08.12 14:37:52 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:37:52 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.77s
+2024.08.12 14:37:55 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:37:55 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:37:55 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.23s
+2024.08.12 14:37:55 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:37:56 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:37:57 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:37:57 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:37:57 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.72s
+2024.08.12 14:37:58 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:38:00 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:38:01 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:38:01 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:38:01 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:38:01 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.32s
+2024.08.12 14:38:02 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+Aug 12, 2024 2:38:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1332
+2024.08.12 14:38:02 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:38:03 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:38:04 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:38:04 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.57s
+2024.08.12 14:38:09 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:38:09 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.59s
+2024.08.12 14:38:11 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:38:11 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:38:11 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:38:11 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.51s
+2024.08.12 14:38:13 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:38:13 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.28s
+2024.08.12 14:38:14 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:38:14 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.21s
+2024.08.12 14:38:16 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:38:16 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.32s
+2024.08.12 14:38:19 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:38:19 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.33s
+2024.08.12 14:38:23 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:38:23 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.3s
+2024.08.12 14:38:27 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:38:27 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.22s
+2024.08.12 14:38:30 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:38:30 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.37s
+2024.08.12 14:38:34 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:38:34 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.26s
+2024.08.12 14:38:36 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:38:36 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.25s
+2024.08.12 14:38:40 ERROR C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:500)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:84)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:595)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:693)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:690)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:690)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:952)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.08.12 14:38:40 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:38:40 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.28s
+2024.08.12 14:38:43 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:38:43 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.24s
+2024.08.12 14:38:48 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:38:48 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.78s
+Aug 12, 2024 2:40:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.08.12 14:45:54 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:45:54 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:45:55 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:45:54 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.55s
+2024.08.12 14:45:55 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:45:56 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:45:56 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:45:56 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.65s
+2024.08.12 14:46:09 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:46:09 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.77s
+2024.08.12 14:46:14 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:14 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:46:14 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.95s
+2024.08.12 14:46:17 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:46:17 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.55s
+Aug 12, 2024 2:46:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1797
+2024.08.12 14:46:25 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:25 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:46:25 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.4s
+2024.08.12 14:46:26 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:27 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:28 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:29 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:30 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:30 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:31 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:32 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:46:32 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.31s
+2024.08.12 14:46:32 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:43 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:47 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:48 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:48 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:46:48 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.25s
+2024.08.12 14:46:49 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:50 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+Aug 12, 2024 2:46:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1927
+2024.08.12 14:46:50 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:51 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:51 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/LabSession08/1.scala
+2024.08.12 14:46:51 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:51 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/LabSession08/1.scala
+2024.08.12 14:46:52 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:54 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:54 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:46:54 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.33s
+2024.08.12 14:46:54 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:55 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:46:55 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:46:55 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.26s
+2024.08.12 14:46:55 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:02 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:05 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:05 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:06 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:06 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/LabSession08/1.scala
+2024.08.12 14:47:07 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:08 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:09 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:09 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:09 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:47:09 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.33s
+2024.08.12 14:47:10 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:11 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:12 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:47:12 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.23s
+2024.08.12 14:47:12 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:13 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:14 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:47:14 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.24s
+2024.08.12 14:47:14 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:15 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:15 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:47:15 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:15 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.32s
+2024.08.12 14:47:16 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:17 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:17 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:47:17 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.29s
+2024.08.12 14:47:18 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:18 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:19 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:19 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:47:19 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.33s
+2024.08.12 14:47:20 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:29 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:31 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:31 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:32 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:33 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:34 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:47:34 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.38s
+2024.08.12 14:47:34 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:35 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:36 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:36 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:47:36 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.11s
+2024.08.12 14:47:37 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:37 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:38 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:47:38 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.23s
+2024.08.12 14:47:38 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:47 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:48 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:49 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:49 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:47:49 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.25s
+2024.08.12 14:47:49 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:51 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:52 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:47:52 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:47:52 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.53s
+2024.08.12 14:47:55 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:47:55 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.5s
+2024.08.12 14:48:09 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:09 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:48:09 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:09 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.29s
+2024.08.12 14:48:09 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:10 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:10 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:48:10 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.24s
+2024.08.12 14:48:11 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:12 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:12 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:13 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:14 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:14 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:15 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:16 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:48:16 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.34s
+2024.08.12 14:48:16 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:18 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:19 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:20 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:48:20 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.3s
+2024.08.12 14:48:20 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:23 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:24 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:24 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:48:24 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.3s
+2024.08.12 14:48:25 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:25 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:26 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:27 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:48:27 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.24s
+2024.08.12 14:48:27 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:27 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:48:28 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.21s
+2024.08.12 14:48:28 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:29 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:30 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:48:30 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:48:30 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.35s
+2024.08.12 14:48:31 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:29 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:30 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:30 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:49:30 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.32s
+2024.08.12 14:49:31 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:32 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:32 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:49:32 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.32s
+2024.08.12 14:49:32 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:33 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:33 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:34 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:35 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:35 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:37 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:38 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:38 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:39 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:40 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:40 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:49:40 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.29s
+2024.08.12 14:49:41 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:42 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:44 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:45 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:45 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:49:45 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.35s
+2024.08.12 14:49:46 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:47 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:47 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:49 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:49 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:49:49 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.6s
+2024.08.12 14:49:52 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:49:52 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.56s
+2024.08.12 14:49:55 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:55 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:49:55 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.23s
+2024.08.12 14:49:55 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:57 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala
+2024.08.12 14:49:57 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:49:57 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.57s
+Aug 12, 2024 2:51:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2762
+Aug 12, 2024 2:51:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2853
+Aug 12, 2024 2:52:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2968
+Aug 12, 2024 2:52:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3103
+2024.08.12 14:55:51 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.12 14:55:51 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.8s
