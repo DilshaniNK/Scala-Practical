@@ -1,5 +1,5 @@
 
-
+import  scala.io.StdIn._
 object Question01 {
     def FindInterset(deposit: Double): Double ={
         val intersetRate = deposit match{
@@ -9,8 +9,18 @@ object Question01 {
             case _                 => 0.065
 
         }
+    
         val interset = (deposit * intersetRate)
         interset
+    }
+
+    def main(args: Array[String]): Unit ={
+        println("Enter your deposit amount :");
+        val de = readDouble();
+        val interset = FindInterset(de);
+
+        println(s"You earn Rs: ${interset} in a year");
+
     }
 }
 

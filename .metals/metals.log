@@ -1333,3 +1333,7 @@ WARNING: Unmatched cancel notification for request id 2042
 2024.08.19 20:06:30 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.32s
 Aug 19, 2024 8:06:33 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2024.08.19 20:09:30 INFO  Shutting down server
+2024.08.19 20:09:30 INFO  shutting down Metals
+2024.08.19 20:09:30 INFO  Shut down connection with build server.
+2024.08.19 20:09:30 INFO  Exiting server
