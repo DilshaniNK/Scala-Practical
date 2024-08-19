@@ -984,3 +984,352 @@ WARNING: Unmatched cancel notification for request id 2733
 2024.08.12 21:59:21 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.5s
 2024.08.12 21:59:24 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
 2024.08.12 21:59:24 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.38s
+Aug 12, 2024 10:16:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2954
+2024.08.13 00:57:24 INFO  Shutting down server
+2024.08.13 00:57:24 INFO  shutting down Metals
+2024.08.13 00:57:25 INFO  Shut down connection with build server.
+2024.08.13 00:57:25 INFO  Exiting server
+2024.08.19 19:36:13 INFO  Started: Metals version 1.3.5 in folders 'C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical' for client Visual Studio Code 1.92.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@4b84b]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@4673e3f0]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@4b84b]
+2024.08.19 19:36:14 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.19 19:36:15 INFO  no build target found for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\LabSession08\1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 19:36:15 INFO  Attempting to connect to the build server...
+2024.08.19 19:36:15 INFO  Running BSP server List(C:\Users\Dilsh\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\.scala-build\ide-envs.json, C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical)
+2024.08.19 19:36:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\.metals\bsp.trace.json or C:\Users\Dilsh\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.08.19 19:36:18 INFO  BSP server: Starting compilation server
+2024.08.19 19:36:27 INFO  time: Connected to build server in 11s
+2024.08.19 19:36:27 INFO  Connected to Build server: scala-cli v1.3.2
+2024.08.19 19:36:27 INFO  time: Imported build in 0.16s
+2024.08.19 19:36:27 INFO  running doctor check
+2024.08.19 19:36:27 INFO  java targets: Scala-Practical_f4dd477a3a-test, Scala-Practical_f4dd477a3a
+2024.08.19 19:36:33 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.08.19 19:36:35 INFO  time: indexed workspace in 7.89s
+2024.08.19 19:37:09 INFO  no build target found for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\Labsession09\Question01.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 19:37:09 INFO  no build target found for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\Labsession09\Question01.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.08.19 19:37:10 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/Labsession09/Question01.scala
+2024.08.19 19:37:10 INFO  time: Imported build in 0.11s
+2024.08.19 19:37:10 INFO  running doctor check
+2024.08.19 19:37:10 INFO  java targets: Scala-Practical_f4dd477a3a-test, Scala-Practical_f4dd477a3a
+2024.08.19 19:37:10 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:37:13 INFO  time: indexed workspace in 3.06s
+2024.08.19 19:37:14 INFO  Deduplicating compilation of Scala-Practical_f4dd477a3a from bsp client 'scala-cli 1.3.2' (since 47.749s)
+2024.08.19 19:37:14 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:37:14 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.54s
+2024.08.19 19:37:15 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/Labsession09/Question01.scala
+2024.08.19 19:38:49 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/Labsession09/Question01.scala
+2024.08.19 19:38:50 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/Labsession09/Question01.scala
+2024.08.19 19:38:51 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/Labsession09/Question01.scala
+2024.08.19 19:38:50 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/Labsession09/Question01.scala
+2024.08.19 19:38:52 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/Labsession09/Question01.scala
+2024.08.19 19:38:52 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/Labsession09/Question01.scala
+2024.08.19 19:38:54 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/Labsession09/Question01.scala
+2024.08.19 19:38:55 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/Labsession09/Question01.scala
+2024.08.19 19:38:55 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:38:55 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.52s
+2024.08.19 19:38:56 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/Labsession09/Question01.scala
+2024.08.19 19:38:56 ERROR C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\Labsession09\Question01.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:709)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:247)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:84)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:595)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:693)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:690)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:690)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:952)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.08.19 19:38:57 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+Aug 19, 2024 7:38:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 130
+2024.08.19 19:38:58 INFO  time: compiled Scala-Practical_f4dd477a3a in 1.11s
+2024.08.19 19:38:58 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:38:59 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/Labsession09/Question01.scala
+2024.08.19 19:39:00 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/Labsession09/Question01.scala
+2024.08.19 19:39:00 INFO  time: compiled Scala-Practical_f4dd477a3a in 1.66s
+2024.08.19 19:39:01 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/Labsession09/Question01.scala
+2024.08.19 19:39:01 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\Labsession09\Question01.scala
+2024.08.19 19:39:00 ERROR C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\Labsession09\Question01.scala
+scala.meta.internal.tokenizers.package$UnexpectedInputEndException
+	at scala.meta.internal.tokenizers.LegacyScanner.$anonfun$nextToken$1(LegacyScanner.scala:172)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at scala.meta.internal.tokenizers.LegacyScanner.scala$meta$internal$tokenizers$LegacyScanner$$nextToken(LegacyScanner.scala:178)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:172)
+	at scala.meta.internal.mtags.ScalaToplevelMtags$XtensionScanner.mtagsNextToken(ScalaToplevelMtags.scala:72)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.emitMember(ScalaToplevelMtags.scala:709)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.loop(ScalaToplevelMtags.scala:247)
+	at scala.meta.internal.mtags.ScalaToplevelMtags.indexRoot(ScalaToplevelMtags.scala:84)
+	at scala.meta.internal.metals.SemanticdbDefinition$.foreachWithReturnMtags(SemanticdbDefinition.scala:81)
+	at scala.meta.internal.metals.Indexer.indexSourceFile(Indexer.scala:595)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3(Indexer.scala:693)
+	at scala.meta.internal.metals.Indexer.$anonfun$reindexWorkspaceSources$3$adapted(Indexer.scala:690)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:619)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:617)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1303)
+	at scala.meta.internal.metals.Indexer.reindexWorkspaceSources(Indexer.scala:690)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$onChange$2(MetalsLspService.scala:952)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.08.19 19:39:00 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:39:00 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.18s
+2024.08.19 19:39:01 WARN  Could not find semantic tokens for: file:///C:/Users/Dilsh/OneDrive/Documents/GitHub/Scala-Practical/Labsession09/Question01.scala
+2024.08.19 19:39:02 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\Labsession09\Question01.scala
+2024.08.19 19:39:54 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\Labsession09\Question01.scala
+2024.08.19 19:39:58 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\Labsession09\Question01.scala
+2024.08.19 19:39:58 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\Labsession09\Question01.scala
+2024.08.19 19:39:59 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\Labsession09\Question01.scala
+2024.08.19 19:40:00 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\Labsession09\Question01.scala
+2024.08.19 19:40:00 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\Labsession09\Question01.scala
+2024.08.19 19:40:01 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\Labsession09\Question01.scala
+2024.08.19 19:40:02 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\Labsession09\Question01.scala
+2024.08.19 19:40:03 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:40:03 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.74s
+2024.08.19 19:40:10 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:40:10 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.74s
+2024.08.19 19:40:20 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:40:20 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.29s
+2024.08.19 19:40:23 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:40:23 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.19s
+2024.08.19 19:40:30 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:40:30 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.21s
+2024.08.19 19:40:32 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:40:32 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.41s
+2024.08.19 19:40:35 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:40:35 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.2s
+2024.08.19 19:41:02 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:41:02 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.29s
+Aug 19, 2024 7:41:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 466
+2024.08.19 19:41:05 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:41:05 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.27s
+2024.08.19 19:41:06 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:41:06 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.18s
+2024.08.19 19:41:08 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:41:08 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.28s
+2024.08.19 19:41:14 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:41:14 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.19s
+2024.08.19 19:41:27 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:41:27 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.23s
+2024.08.19 19:41:29 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:41:29 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.18s
+2024.08.19 19:41:31 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:41:33 INFO  time: compiled Scala-Practical_f4dd477a3a in 1.61s
+2024.08.19 19:41:37 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:41:38 INFO  time: compiled Scala-Practical_f4dd477a3a in 1.12s
+2024.08.19 19:41:53 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:41:53 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.23s
+2024.08.19 19:41:56 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:41:56 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.9s
+2024.08.19 19:41:57 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:41:57 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.83s
+2024.08.19 19:41:59 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:41:59 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.72s
+2024.08.19 19:42:02 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:42:02 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.61s
+2024.08.19 19:42:38 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:42:38 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.23s
+2024.08.19 19:42:51 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:42:51 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.62s
+2024.08.19 19:43:23 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:43:23 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.84s
+2024.08.19 19:43:25 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:43:25 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.6s
+2024.08.19 19:43:54 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:43:54 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.41s
+2024.08.19 19:43:55 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:43:55 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.27s
+2024.08.19 19:44:31 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:44:31 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.31s
+Aug 19, 2024 7:44:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\.metals\.reports\metals-full\2024-08-19\r_compiler-error_(Scala-Practical_f4dd477a3a)_19-44-38-390.md
+Aug 19, 2024 7:44:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1012
+2024.08.19 19:44:41 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:44:41 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.2s
+2024.08.19 19:44:43 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:44:43 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.21s
+2024.08.19 19:44:46 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:44:46 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.72s
+2024.08.19 19:52:46 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:52:46 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.91s
+2024.08.19 19:52:50 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:52:50 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.2s
+2024.08.19 19:52:56 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:52:56 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.19s
+2024.08.19 19:53:02 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:53:02 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.17s
+2024.08.19 19:53:06 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:53:06 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.34s
+2024.08.19 19:53:08 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:53:08 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.16s
+2024.08.19 19:53:10 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:53:10 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.16s
+2024.08.19 19:53:12 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:53:12 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.17s
+2024.08.19 19:53:32 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:53:32 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.26s
+2024.08.19 19:53:35 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:53:35 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.17s
+2024.08.19 19:53:38 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:53:38 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.21s
+2024.08.19 19:53:40 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:53:40 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.69s
+2024.08.19 19:53:49 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:53:49 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.42s
+2024.08.19 19:59:29 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:59:29 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.27s
+2024.08.19 19:59:31 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:59:31 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.18s
+2024.08.19 19:59:33 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:59:33 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.22s
+2024.08.19 19:59:35 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:59:37 INFO  time: compiled Scala-Practical_f4dd477a3a in 1.33s
+2024.08.19 19:59:37 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:59:38 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.59s
+2024.08.19 19:59:42 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:59:42 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.22s
+2024.08.19 19:59:44 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:59:44 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.12s
+2024.08.19 19:59:51 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:59:51 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.5s
+2024.08.19 19:59:54 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:59:54 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.34s
+2024.08.19 19:59:55 WARN  Could not load snapshot text for C:\Users\Dilsh\OneDrive\Documents\GitHub\Scala-Practical\Labsession09\Question01.scala
+2024.08.19 19:59:54 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:59:56 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.28s
+2024.08.19 19:59:58 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 19:59:58 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.51s
+2024.08.19 20:00:01 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:00:01 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.57s
+2024.08.19 20:00:04 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:00:04 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.41s
+2024.08.19 20:00:11 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:00:11 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.18s
+2024.08.19 20:00:13 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:00:13 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.66s
+2024.08.19 20:00:15 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:00:15 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.53s
+Aug 19, 2024 8:00:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1718
+2024.08.19 20:00:19 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:00:19 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.73s
+2024.08.19 20:00:22 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:00:22 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.24s
+2024.08.19 20:00:25 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:00:25 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.38s
+2024.08.19 20:00:33 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:00:33 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.23s
+2024.08.19 20:00:35 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:00:35 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.41s
+2024.08.19 20:00:36 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:00:36 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.12s
+2024.08.19 20:00:45 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:00:45 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.4s
+2024.08.19 20:00:52 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:00:52 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.35s
+2024.08.19 20:00:57 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:00:57 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.37s
+2024.08.19 20:00:59 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:00:59 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.28s
+2024.08.19 20:01:03 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:01:03 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.22s
+2024.08.19 20:01:08 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:01:08 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.41s
+2024.08.19 20:01:13 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:01:13 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.42s
+2024.08.19 20:01:16 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:01:16 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.39s
+2024.08.19 20:01:28 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:01:28 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.19s
+2024.08.19 20:01:31 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:01:31 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.35s
+2024.08.19 20:01:33 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:01:33 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.32s
+2024.08.19 20:01:34 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:01:34 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.3s
+2024.08.19 20:04:00 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:04:00 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.35s
+Aug 19, 2024 8:04:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2042
+2024.08.19 20:04:04 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:04:04 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.3s
+2024.08.19 20:04:05 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:04:05 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.68s
+2024.08.19 20:04:09 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:04:09 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.53s
+2024.08.19 20:04:14 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:04:14 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.64s
+2024.08.19 20:04:18 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:04:18 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.62s
+2024.08.19 20:04:22 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:04:22 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.48s
+2024.08.19 20:04:23 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:04:23 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.4s
+2024.08.19 20:04:24 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:04:24 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.44s
+2024.08.19 20:05:04 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:05:04 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.76s
+2024.08.19 20:05:06 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:05:06 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.55s
+2024.08.19 20:05:08 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:05:08 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.5s
+2024.08.19 20:05:16 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:05:16 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.53s
+2024.08.19 20:05:19 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:05:19 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.5s
+2024.08.19 20:05:20 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:05:20 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.42s
+2024.08.19 20:05:25 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:05:25 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.46s
+2024.08.19 20:05:47 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:05:47 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.54s
+2024.08.19 20:05:48 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:05:48 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.38s
+2024.08.19 20:05:54 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:05:54 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.46s
+2024.08.19 20:05:56 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:05:56 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.48s
+2024.08.19 20:05:58 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:05:58 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.53s
+2024.08.19 20:06:01 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:06:01 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.41s
+2024.08.19 20:06:04 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:06:04 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.52s
+2024.08.19 20:06:13 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:06:13 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.19s
+2024.08.19 20:06:14 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:06:14 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.36s
+2024.08.19 20:06:17 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:06:17 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.4s
+2024.08.19 20:06:20 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:06:20 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.29s
+2024.08.19 20:06:27 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:06:27 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.33s
+2024.08.19 20:06:30 INFO  compiling scala-practical_f4dd477a3a (1 scala source)
+2024.08.19 20:06:30 INFO  time: compiled Scala-Practical_f4dd477a3a in 0.32s
+Aug 19, 2024 8:06:33 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
